@@ -1,0 +1,26 @@
+.presentation {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    color: #333;
+}
+
+.pineapple{
+    width: 300px;
+}
+
+button{
+    background-color: blue;
+}
+
+.credits{
+    position: absolute;
+    bottom: 0;
+    padding: 0 15px;
+    display: flex;
+    align-self: flex-end;
+}

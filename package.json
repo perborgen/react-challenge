@@ -1,0 +1,53 @@
+{
+  "name": "react-redux-boilerplate",
+  "version": "1.0.0",
+  "description": "Yet another react-redux boilerplate. Webpack, Babel, React, Redux and ESlint.",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --config webpack.prod.js --mode production",
+    "dev": "webpack-dev-server --open --config webpack.dev.js --mode development",
+    "test": "react-scripts test --env=jsdom"
+  },
+  "keywords": [
+    "react",
+    "boilerplate",
+    "babel",
+    "webpack"
+  ],
+  "author": "Guido Vizoso <https://www.linkedin.com/in/guidovizoso>",
+  "repository": "https://github.com/guidovizoso/react-boilerplate",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "eslint": "^4.9.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.4.0",
+    "file-loader": "^1.1.11",
+    "webpack": "^4.8.3",
+    "webpack-cli": "^2.1.4",
+    "webpack-dev-server": "^3.1.4",
+    "webpack-merge": "^4.1.2"
+  },
+  "dependencies": {
+    "css-loader": "^0.28.11",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "redux-logger": "^3.0.6",
+    "style-loader": "^0.21.0"
+  },
+  "babel": {
+    "presets": [
+      "env",
+      "react",
+      "stage-0"
+    ]
+  }
+}
