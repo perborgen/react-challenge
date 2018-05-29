@@ -1,10 +1,16 @@
 const presentation = (state = {}, action) => {
   switch (action.type) {
-    case 'INITIAL_STATE':
+    case 'INITIAL_STATE': {
       return action.state;
+    }
 
-    case 'DISPLAY_NAME':
-      return action.name;
+    case 'DISPLAY_NAME': {
+      const newState = {
+        ...state,
+        name: action.name,
+      };
+      return newState;
+    }
 
     default: return state;
   }

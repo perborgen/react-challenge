@@ -1,22 +1,24 @@
 import { createStore, applyMiddleware, combineReducers } from 'redux';
 import logger from 'redux-logger';
 
-import { default as reducers } from './reducers';
+import presentation from './reducers/presentation';
 
-const Config = process.env.WEBPACK_MODE;
+const Config = process.env.NODE_ENV;
 
 const getStore = () => {
   if (Config === 'development') {
-    return createStore(
+    const store = createStore(
       combineReducers({
-        reducers,
+        presentation,
       }),
       applyMiddleware(logger),
     );
+    return store;
   } else if (Config === 'production') {
-    return createStore(combineReducers({
-      reducers,
+    const store = createStore(combineReducers({
+      presentation,
     }));
+    return store;
   }
 };
 

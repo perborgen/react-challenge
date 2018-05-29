@@ -7,4 +7,3 @@ export const displayName = name => ({
   type: 'DISPLAY_NAME',
   name,
 });
-
