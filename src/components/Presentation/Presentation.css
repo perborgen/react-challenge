@@ -13,6 +13,10 @@
     width: 300px;
 }
 
+a{
+    color: #2a5298;
+}
+
 input{
     padding: .5em;
     border-radius: 3px;
