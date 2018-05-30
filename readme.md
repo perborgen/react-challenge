@@ -1,12 +1,12 @@
-# React Boilerplate
+# React-Redux Boilerplate
 
-I made this thinking in my own development process but feel free to use it if you want :ok_hand:
+This is the sequel to this repo: [https://github.com/guidovizoso/react-redux-boilerplate](https://github.com/guidovizoso/react-redux-boilerplate)
 
 ## How to use it
 
 Installing:
 
-    git clone https://github.com/guidovizoso/react-boilerplate.git
+    git clone https://github.com/guidovizoso/react-redux-boilerplate.git
     npm install
 
 Commands:
@@ -20,7 +20,10 @@ Commands:
 ├── src
 │   ├── index.js // Renders everything
 │   ├── App.jsx // Main component
-│   ├── App.css // Main component styles (one stylesheet per component)
+│   ├── store.js // Redux store generator
+│   ├── components // Pretty much explains itself
+│   ├── actions // Dispatch executers
+│   ├── reducers // Redux Reducers
 │   └── assets // Images and stuff goes here
 ├── dist // Compiled files goes here
 ├── package.json
@@ -35,14 +38,13 @@ Commands:
 ## Variables
 
 * Default project > **master branch**
-* SASS project > **sass branch**
-* PostCSS project > **postcss branch**
 
 ## Content
 
 * Webpack
 * Babel (env, react and stage-0)
 * React
+* Redux
 * Styled Components
 * ESlint
 
@@ -50,8 +52,7 @@ Commands:
 
 * [x] Initial version
 * [x] Img support
-* [x] Optional SASS and PostCSS
-* [ ] Optional Heroku and Now integration
+* [ ] Optional SASS and PostCSS
 * [ ] Testing support
 
 :speech_balloon: Made by **Guido Vizoso** <[https://www.linkedin.com/in/guidovizoso/](https://www.linkedin.com/in/guidovizoso/)>
