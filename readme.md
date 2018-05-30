@@ -1,6 +1,6 @@
 # React-Redux Boilerplate
 
-This is the sequel to this repo: [https://github.com/guidovizoso/react-redux-boilerplate](https://github.com/guidovizoso/react-redux-boilerplate)
+This is the sequel to this repo: [https://github.com/guidovizoso/react-boilerplate](https://github.com/guidovizoso/react-boilerplate)
 
 ## How to use it
 
