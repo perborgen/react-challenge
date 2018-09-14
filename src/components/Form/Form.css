@@ -9,10 +9,6 @@
     color: #333;
 }
 
-.pineapple{
-    width: 300px;
-}
-
 a{
     color: #2a5298;
 }
@@ -33,12 +29,4 @@ button{
     border: none;
     padding: .5em 1em;
     margin-bottom: 2em;
-}
-
-.credits{
-    position: absolute;
-    bottom: 0;
-    padding: 0 15px;
-    display: flex;
-    align-self: flex-end;
 }

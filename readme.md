@@ -1,12 +1,18 @@
-# React-Redux Boilerplate
+# React Challenge
 
-This is the sequel to this repo: [https://github.com/guidovizoso/react-boilerplate](https://github.com/guidovizoso/react-boilerplate)
+In this chellenge we want you to create a tiny app which allows you to search for a city and get back a visualization (time series graph) of the city's temperature forecast for the next 16 days.
+
+You'll need to use React & Redux to solve the challenge. We've provided you with boilerplate code so that can dive straight into the coding.
+
+Use the [OpenWeatherMap API](https://openweathermap.org/api) to get the temperature forecast.
+
+As for the time series graph, you can use whatever visualization library you prefer.
 
 ## How to use it
 
 Installing:
 
-    git clone https://github.com/guidovizoso/react-redux-boilerplate.git
+    git clone https://github.com/perborgen/react-challenge.git
     npm install
 
 Commands:
@@ -24,7 +30,6 @@ Commands:
 │   ├── components // Pretty much explains itself
 │   ├── actions // Dispatch executers
 │   ├── reducers // Redux Reducers
-│   └── assets // Images and stuff goes here
 ├── dist // Compiled files goes here
 ├── package.json
 ├── .babelrc
@@ -35,10 +40,6 @@ Commands:
 └── .gitignore
 ```
 
-## Variables
-
-* Default project > **master branch**
-
 ## Content
 
 * Webpack
@@ -47,12 +48,3 @@ Commands:
 * Redux
 * Styled Components
 * ESlint
-
-## Roadmap
-
-* [x] Initial version
-* [x] Img support
-* [ ] Optional SASS and PostCSS
-* [ ] Testing support
-
-:speech_balloon: Made by **Guido Vizoso** <[https://www.linkedin.com/in/guidovizoso/](https://www.linkedin.com/in/guidovizoso/)>
