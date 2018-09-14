@@ -2,7 +2,7 @@
 
 In this challenge we want you to create a tiny app which allows you to search for a city and get back a visualization (time series graph) of the city's temperature forecast for the next 16 days.
 
-You'll need to use React & Redux to solve the challenge. We've provided you with boilerplate code so that can dive straight into the coding.
+You'll need to use React & Redux to solve the challenge. We've provided you with boilerplate code so that can dive straight into the coding without worriying about the setup.
 
 Use the [OpenWeatherMap API](https://openweathermap.org/api) to get the temperature forecast.
 
