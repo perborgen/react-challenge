@@ -29,7 +29,7 @@ class Form extends React.Component {
   render() {
     return (
       <div className="form">
-        <h1>Intellecy challenge!</h1>
+        <h1>Intelecy challenge!</h1>
         <input
           type="text"
           placeholder="Enter a city"
