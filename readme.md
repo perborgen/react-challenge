@@ -30,6 +30,7 @@ Commands:
 │   ├── components // Pretty much explains itself
 │   ├── actions // Dispatch executers
 │   ├── reducers // Redux Reducers
+│   ├── graphic // graphical elements
 ├── dist // Compiled files goes here
 ├── package.json
 ├── .babelrc
