@@ -1,4 +1,4 @@
-const presentation = (state = {}, action) => {
+const form = (state = {}, action) => {
   switch (action.type) {
     case 'INITIAL_STATE': {
       return action.state;
@@ -16,4 +16,4 @@ const presentation = (state = {}, action) => {
   }
 };
 
-export default presentation;
+export default form;

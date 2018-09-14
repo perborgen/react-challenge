@@ -1,7 +1,7 @@
 import { createStore, applyMiddleware, combineReducers } from 'redux';
 import logger from 'redux-logger';
 
-import presentation from './reducers/presentation';
+import form from './reducers/form';
 
 const Config = process.env.NODE_ENV;
 
@@ -9,14 +9,14 @@ const getStore = () => {
   if (Config === 'development') {
     const store = createStore(
       combineReducers({
-        presentation,
+        form,
       }),
       applyMiddleware(logger),
     );
     return store;
   } else if (Config === 'production') {
     const store = createStore(combineReducers({
-      presentation,
+      form,
     }));
     return store;
   }

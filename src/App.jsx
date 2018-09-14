@@ -1,12 +1,12 @@
 import React from 'react';
 
-import Presentation from './components/Presentation';
-import Dialog from './components/Dialog';
+import Form from './components/Form';
+import Graph from './components/Graph';
 
 const App = () => (
   <div>
-    <Presentation />
-    <Dialog />
+    <Form />
+    <Graph />
   </div>
 );
 
